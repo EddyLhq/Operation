@@ -1,0 +1,12 @@
+version: '3.3'
+
+services:
+  godaddy-monitor:
+    build: .
+    container_name: godaddy-monitor
+    restart: unless-stopped
+    env_file:
+      - .env
+    # 如果你想在容器内直接配置环境变量，也可以在这里写
+    # environment:
+    #   - CHECK_INTERVAL=86400  # 每天检查一次 (24 * 3600)

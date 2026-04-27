@@ -1,0 +1,9 @@
+{
+  "game_domains": [
+  ],
+  "web_domains": [  
+  ],
+  "log_path": "C:\\idn-domain-monitor\\domain_block_monitor.log",
+  "check_interval_minutes": 10,
+  "check_process_minutes": 1440
+}
