@@ -11,7 +11,7 @@ import (
 )
 
 var (
-	_key = "ShsPt3wUoauTFlOS"
+	_key = "123"
 )
 
 type Domain struct {

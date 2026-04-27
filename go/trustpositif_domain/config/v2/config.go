@@ -190,5 +190,5 @@ func (p *Config) Domains() ([]string, error) {
 }
 
 var (
-	_key = "ShsPt3wUoauTFlOS"
+	_key = "123"
 )
