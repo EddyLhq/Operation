@@ -337,15 +337,15 @@ func sendMessage(botToken string, chatId string, text string) error {
 var (
 	// welcomeUrl = "https://idn-web.oss-ap-southeast-5.aliyuncs.com/welcome/welcome.json"
 	cfgFile    = "config.yaml"
-	slackToken = "xoxb-8093679394885-8330984712113-Rn5mwRFv36w1xRcgTYoWU4h7"
-	channelId  = "C094ESPBUAU"
+	slackToken = ""
+	channelId  = ""
 	checkTime  = 1
 )
 
 func init() {
 	flag.StringVar(&cfgFile, "c", "config.yaml", "配置文件")
-	flag.StringVar(&slackToken, "slacktoken", "xoxb-8093679394885-8330984712113-Rn5mwRFv36w1xRcgTYoWU4h7", "slack机器人token")
-	flag.StringVar(&channelId, "channelid", "C094ESPBUAU", "频道id") //副包的id
+	flag.StringVar(&slackToken, "slacktoken", "", "slack机器人token")
+	flag.StringVar(&channelId, "channelid", "", "频道id") //副包的id
 	flag.IntVar(&checkTime, "checkTime", 1, "检查时间，单位分钟")
 }
 

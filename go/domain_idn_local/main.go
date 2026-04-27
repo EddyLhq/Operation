@@ -24,10 +24,10 @@ import (
 )
 
 const (
-	apiToken                = "c18a61a83ef17e3de1f2990cf1837324"
-	slackToken              = "xoxb-8093679394885-8330984712113-Rn5mwRFv36w1xRcgTYoWU4h7"
-	channelId               = "C0936T2MKPG"
-	monitorProcessChannelId = "C0936T2MKPG"
+	apiToken                = ""
+	slackToken              = ""
+	channelId               = ""
+	monitorProcessChannelId = ""
 )
 
 // 配置结构体
